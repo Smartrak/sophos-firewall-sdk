@@ -54,7 +54,7 @@ Create methods are used to create new configuration objects on the firewall. To 
 <Request>
    <Login>
         <Username>{{username}}</Username>
-        <Password >{{password}}</Password>
+        <Password >{{password|safe}}</Password>
     </Login>
     <Set operation="add"> 
     <IPHost transactionid="">

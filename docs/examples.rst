@@ -221,7 +221,7 @@ at the same time if desired.
     <Request>
         <Login>
             <Username>{{username}}</Username>
-            <Password >{{password}}</Password>
+            <Password >{{password|safe}}</Password>
         </Login>
         <Set operation="add">
             <WebFilterURLGroup>
